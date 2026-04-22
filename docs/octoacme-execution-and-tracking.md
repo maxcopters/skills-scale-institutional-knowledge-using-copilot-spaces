@@ -22,6 +22,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- QA Lead coordinates test strategy and validates acceptance criteria
+- QA Lead participates in sprint reviews and release readiness
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,9 +31,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
+- Level 1: Team-level triage in daily standup (PM, Developers, QA Lead, Tech Lead)
 - Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 3: Product Lead and Sponsor escalation for business-impacting issues
+- Security incidents: Escalate to Security Owner immediately; follow security incident runbook
+- Production incidents: Support/Ops Lead coordinates triage and response
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo

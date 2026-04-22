@@ -38,5 +38,18 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+
+### Standard Escalation
+1. **Team Level**: Identified in daily standup by Project Manager, Developers, QA Lead, or Tech Lead
+2. **Product Level**: Project Manager escalates to Product Manager and Product Lead
+3. **Executive Level**: Product Lead escalates to Sponsor for business-impacting decisions
+
+### Security Escalations
+- Any security concern identified during development or review → **Security Owner immediately**
+- Security Owner conducts risk assessment and coordinates response
+- Critical security incidents → Follow security incident runbook; notify Sponsor and Support/Ops Lead
+
+### Operational / Production Escalations
+- Production issues → **Support/Ops Lead coordinates triage**
+- Critical incidents → Notify Project Manager, Tech Lead, and Sponsor
+- Post-incident review led by Support/Ops Lead with retrospective

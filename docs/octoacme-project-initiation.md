@@ -25,9 +25,10 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Objective / Goal (SMART):
 - Success metrics:
 - Primary stakeholders:
+- **Proposed team / roles**: (Project Manager, Product Manager, Tech Lead, QA Lead, Developers, Security Owner, Support/Ops Lead as applicable)
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- **Decision maker**: (Product Lead and Sponsor approval required)
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
@@ -41,3 +42,5 @@ Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+- **Product Lead and Sponsor have approved the One-pager**
+- **Required roles are identified and available**
